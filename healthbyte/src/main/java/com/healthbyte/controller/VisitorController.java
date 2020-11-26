@@ -43,7 +43,7 @@ public class VisitorController {
     public List<Visitor> findAllVisitor(){
 
         return visitorService.findAllVisitor();
-        //Linux: Alt+C, S, 6.
+        //Linux: Alt+C, S, 6 .
     }
 
     @PostMapping("/v1/visitors")

@@ -30,7 +30,6 @@ public class Visitor {
         this.emailId = emailId;
     }
 
-
     public Integer getId() {
         return id;
     }
