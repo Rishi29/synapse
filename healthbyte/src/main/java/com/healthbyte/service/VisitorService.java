@@ -12,6 +12,7 @@ public interface VisitorService {
     List<Visitor> findAllVisitor();
     Map<String, Boolean> deleteVisitor(Integer id);
     Map<String, Boolean> Visitor(Integer id);
+
     Visitor updateVisitor(Integer id, Visitor visitor);
 
 }
