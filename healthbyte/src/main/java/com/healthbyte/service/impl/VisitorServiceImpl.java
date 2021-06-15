@@ -69,7 +69,7 @@ public class VisitorServiceImpl implements VisitorService  {
            return  visitorRepository.save(visitor);
 
         }else{
-            throw new VisitorNotFoundException("Visitor not found with the id  "+ id);
+            throw new VisitorNotFoundException("Visitor not found with the given id  "+ id);
         }
     }
 }
