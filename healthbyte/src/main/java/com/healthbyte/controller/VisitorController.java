@@ -71,7 +71,7 @@ public class VisitorController {
             Visitor updatedVisitor = visitorService.updateVisitor(id, visitorDetails);
             return new ResponseEntity<>(updatedVisitor,HttpStatus.OK);
         }catch(VisitorNotFoundException ex){
-            logger.info(ex.getMessage());
+            logger.info("Exception occurred "+ ex.getMessage());
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 
         }
